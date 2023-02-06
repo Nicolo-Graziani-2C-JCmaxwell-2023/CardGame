@@ -1,2 +1,2 @@
 # CardGame
-1°
+Javascript tutorial
