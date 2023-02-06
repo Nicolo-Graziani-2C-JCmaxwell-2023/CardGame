@@ -1,4 +1,4 @@
 # CardGame
-##################Javascript tutorial
+Javascript tutorial
 
 I'm a bomb
