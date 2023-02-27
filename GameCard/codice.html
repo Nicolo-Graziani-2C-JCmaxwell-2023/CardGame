@@ -7,14 +7,22 @@
         <title>Document</title>
     </head>
     <body>
-        <img src="dietro.jpg" onclick="TurnImg()" />
+        <div id="gametable"></div>
         <script>
-            let image = document.querySelector("img");
+            card = ["dietro.jpg", "davanti.jpg"]
+            table = document.querySelector('#gametable')
+            
+            card.forEach(element => {
+                table.innerHTML += '<img id="'+element+'" src="dietro.jpg" onclick="TurnImg(this)" />'
+                console.log('<img id="'+element+'" src="dietro.jpg" />')
+            });
+
                 function TurnImg() {
                     console.log("TurnImg")
-                    if (image.src.match("dietro"))
-                        image.src = "davanti.jpg";
-                    else image.src = "dietro.jpg";
+                    console.log(card.src)
+                    if (card.src.includes("dietro"))
+                       card.src = card.id
+                    else card.src = "dietro.jpg";
                 }         
         </script>
     </body>
