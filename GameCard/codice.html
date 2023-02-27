@@ -9,20 +9,20 @@
     <body>
         <div id="gametable"></div>
         <script>
-            card = ["dietro.jpg", "davanti.jpg"]
+            card = ["back.jpg", "front.jpg"]
             table = document.querySelector('#gametable')
             
             card.forEach(element => {
                 table.innerHTML += '<img id="'+element+'" src="dietro.jpg" onclick="TurnImg(this)" />'
-                console.log('<img id="'+element+'" src="dietro.jpg" />')
+                console.log('<img id="'+element+'" src="back.jpg" />')
             });
 
-                function TurnImg() {
+                function TurnImg(card) {
                     console.log("TurnImg")
                     console.log(card.src)
-                    if (card.src.includes("dietro"))
+                    if (card.src.includes("back"))
                        card.src = card.id
-                    else card.src = "dietro.jpg";
+                    else card.src = "back.jpg";
                 }         
         </script>
     </body>
