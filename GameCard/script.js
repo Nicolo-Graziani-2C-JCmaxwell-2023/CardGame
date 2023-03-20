@@ -1,6 +1,6 @@
 let NTurnCard = 0
 let FristTurnCard = null
-card = ["front4.jpg", "front.jpg", "front3.jpg", "front.jpg", "front3.jpg", "front4.jpg"]
+card = ["front2.jpg", "front.jpg", "front3.jpg", "front.jpg", "front3.jpg", "front2.jpg"]
 table = document.querySelector('#gametable')
 
 card.forEach(element => {
