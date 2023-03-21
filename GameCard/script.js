@@ -1,6 +1,6 @@
 let NTurnCard = 0
 let FristTurnCard = null
-card = ["front2.jpg", "front.jpg", "front3.jpg", "front.jpg", "front3.jpg", "front2.jpg"]
+card = ["front4.jpg", "front.jpg", "front3.jpg", "front.jpg", "front3.jpg", "front4.jpg"]
 table = document.querySelector('#gametable')
 
 card.forEach(element => {
@@ -15,13 +15,16 @@ function TurnImg(card) {
     if (NTurnCard == 1)
         FristTurnCard = card
     else {
-        NTurnCard == 0
+        NTurnCard = 0
         if (card.src == FristTurnCard.src)
             console.log("+1 Point")
         else {
-            console.log("...")
-            card.src = "back.jpg"
-            FristTurnCard.src = "back.jpg"
+            console.log("retry")
+
+            setTimeout(()=>{
+                card.src = "back.jpg"
+                FristTurnCard.src = "back.jpg"
+            },1500)
         }
     }
-}         
+}
