@@ -10,10 +10,46 @@
             img {
                 width: 325px;
             }
+
+            .item1 { grid-area: point; }
+            .item2 { grid-area: pointN; }
+            .item3 { grid-area: gametable; }
+
+            .grid-container {
+                display: grid;
+                grid-template-areas:
+                    'point point pointN'
+                    'gametable gametable gametable'
+                    'gametable gametable gametable';
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+            }
+
+            .grid-container > div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+            }
         </style>
     </head>
     <body>
-        <div id="gametable"></div>
+        <div class="grid-container">
+
+            <div class="item1">
+                <div id="point"><h1>point:</h1></div>
+            </div>
+
+            <div class="item2">
+                <div id="pointN"></div>
+            </div>
+
+            <div class="item3">
+                <div id="gametable"></div>
+            </div>
+
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
