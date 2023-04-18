@@ -1,3 +1,4 @@
+//variabili
 // settaggio delle carte
 card = ["front4.jpg", "front.jpg", "front3.jpg", "front.jpg", "front2.jpg", "front3.jpg", "front2.jpg", "front4.jpg"]
 // set valore delle carte girate
@@ -32,6 +33,7 @@ function gira(card) {
             console.log("retry")
             // settaggio del timer
             setTimeout(function() {
+                // settaggio per ritornare coperta
                 card.src = "back.jpg";
                 FristCard.src = "back.jpg";
             }, 1500);
