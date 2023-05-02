@@ -5,6 +5,9 @@ Per maggiorni informazioni sul codice vedere i commenti rilasciati all'interno d
 
 ## LINK: https://nicolo-graziani-2c-jcmaxwell-2023.github.io/CardGame/
 
-1° step --> riuscira a trovare la prima coppia
-        --> se si è da tastiera e muse cliccare l'immagine col tasto destro del mouse
-        --> appena riuscite a trovare una coppia il punto verrà
+istruzioni --> riuscira a trovare la prima coppia
+           --> se si è da tastiera e muse cliccare l'immagine col tasto destro del mouse
+           --> appena riuscite a trovare una coppia il punto verrà assegnato in basso con "1"
+           --> continuate fino a quando tutte le coppie non saranno girate
+           --> se avete finito nella sezione punti dovrà segnare "6"
+           --> adesso avete finito il gioco CONGRATURAZIONI
