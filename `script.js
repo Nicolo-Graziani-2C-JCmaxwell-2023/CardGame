@@ -1,5 +1,5 @@
 // settaggio delle carte
-card = ["front4.jpg", "front5.jpg", "front.jpg", "front3.jpg", "front.jpg", "front5.jpg", "front2.jpg","front6.jpg", "front3.jpg", "front2.jpg", "front4.jpg", "front6.jpg"]
+card = ["front4.jpg", "front5.jpg", "front.jpg", "front3.jpg", "front.jpg", "front5.jpg", "front2.jpg", "front6.jpg", "front3.jpg", "front2.jpg", "front4.jpg", "front6.jpg"]
 // set valore delle carte girate
 let NTurnCard = 0;
 let FristCard = null
