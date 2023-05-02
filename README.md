@@ -6,6 +6,7 @@ Per maggiorni informazioni sul codice vedere i commenti rilasciati all'interno d
 ## istruzioni
            --> clicca sul nome del gioco 
 
+![1](https://user-images.githubusercontent.com/101812261/235668306-3fdd1b35-1471-4056-af93-5aafde57d8cd.PNG)
            --> riuscira a trovare la prima coppia
 
            --> se si è da tastiera e muse cliccare l'immagine col tasto destro del mouse
