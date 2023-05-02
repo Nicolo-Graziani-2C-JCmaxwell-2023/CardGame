@@ -5,7 +5,7 @@ Per maggiorni informazioni sul codice vedere i commenti rilasciati all'interno d
 
 ## LINK: https://nicolo-graziani-2c-jcmaxwell-2023.github.io/CardGame/
 
-istruzioni 
+#istruzioni:
            --> clicca sul nome del gioco 
 
            --> riuscira a trovare la prima coppia
