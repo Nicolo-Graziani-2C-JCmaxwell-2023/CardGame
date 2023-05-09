@@ -7,7 +7,9 @@ table = document.querySelector('#gametable')
 let ctht = document.getElementById("ctht");
 // set valore del 'conto' 
 let ct = 0;
-//setting delle varie
+// set randomizer
+card.sort(() => Math.random() - 0.5); 
+// setting delle varie
 card.forEach(element => {
     table.innerHTML += '<img id="' + element + '" src="back.jpg" onclick="gira(this)" />'
     console.log('<img id="' + element + '" back.jpg" />')
@@ -34,7 +36,7 @@ function gira(card) {
             setTimeout(function() {
                 card.src = "back.jpg";
                 FristCard.src = "back.jpg";
-            }, 1500);
+            }, 1250);
         }
     }
     ctht.textContent = ct;
